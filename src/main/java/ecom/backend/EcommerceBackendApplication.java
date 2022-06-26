@@ -41,10 +41,10 @@ public class EcommerceBackendApplication implements CommandLineRunner {
 		
 		repositoryRestConfiguration.exposeIdsFor(Product.class,Category.class);
 		
-		System.out.println(System.getProperty("user.home")+"\\ecom\\products\\");
-//		categoryRepository.save(new Category(null, "Ordinateurs",null,null,null));
+		
+//		categoryRepository.save(new Category(null, "Laptops",null,null,null));
 //		categoryRepository.save(new Category(null, "Printers",null,null,null));
-//		categoryRepository.save(new Category(null, "Smart Phones",null,null,null));
+//		categoryRepository.save(new Category(null, "Smartphones",null,null,null));
 //		Random rnd=new Random();
 //        categoryRepository.findAll().forEach(c->{
 //            for (int i = 0; i <3 ; i++) {
